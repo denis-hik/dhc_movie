@@ -13,3 +13,5 @@ In the project directory, you can run:
 
 Stack:
 ``Redux``,``TS``,``scss``,``ajax``, 
+
+![plot](/screenshots/sc.png)

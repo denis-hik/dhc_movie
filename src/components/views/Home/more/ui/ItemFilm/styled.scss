@@ -1,0 +1,76 @@
+.ItemFilm-body {
+  width: inherit;
+  height: calc(15vh - 5px);
+  background: #61dafb;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+
+  .ItemFilm-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0;
+    background: rgba(84, 84, 84, 0.76);
+
+    .onRedirect {
+      width: 30px;
+      height: 30px;
+      object-fit: contain;
+      position: absolute;
+      top: 10px;
+      right: 10px
+    }
+
+    .onLike {
+      width: 30px;
+      height: 30px;
+      object-fit: contain;
+      position: absolute;
+      top: 40px;
+      right: 10px
+    }
+
+    .ItemFilm-des {
+      position: absolute;
+      left: 5px;
+      top: 5px;
+      max-width: calc(100% - 50px);
+      background: white;
+      border-radius: 5px;
+    }
+  }
+
+  .ItemFilm-title {
+    position: absolute;
+    background: white;
+    bottom: 0;
+    right: 0;
+    padding: 5px;
+    border-radius:  10px 0 0 0;
+  }
+
+  .ItemFilm-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.ItemFilm-body:hover {
+  .ItemFilm-hover {
+    opacity: 1;
+  }
+}
+
+
+@media (max-width: 1000px) {
+  .ItemFilm-body{
+    height: 200px ;
+
+
+  }
+}

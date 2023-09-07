@@ -1,0 +1,46 @@
+.Grid-body {
+  width: calc(100vw - 20px);
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  overflow-y: auto;
+  flex-direction: column;
+
+  .Grid-carusel {
+    height: 250px;
+  }
+
+  .Grid-list {
+    gap: 10px;
+    display: grid;
+    grid-template-columns: calc(100vw / 3.1) calc(100vw / 3.1) calc(100vw / 3.1) ;
+    height: auto;
+  }
+
+  .next {
+    bottom: 0;
+    height: 40px;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    min-width: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: #61dafb;
+    border-radius: 10px;
+  }
+
+}
+
+@media (max-width: 1000px) {
+  .Grid-body {
+    width: 100vw;
+    .Grid-list {
+      grid-template-columns: calc(100vw / 2.1) calc(100vw / 2.1) ;
+      height: auto;
+    }
+  }
+}

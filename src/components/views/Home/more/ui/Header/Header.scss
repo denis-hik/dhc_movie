@@ -1,0 +1,16 @@
+.Header-body {
+  width: 100%;
+  background: #61dafb;
+  height: 100px;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.Header-body .Header-logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+  object-fit: contain;
+}

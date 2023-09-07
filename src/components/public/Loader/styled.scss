@@ -1,0 +1,12 @@
+.Loader-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 100px);
+
+  Loader-lottie {
+    width: 200px;
+    height: 200px;
+    object-fit: contain;
+  }
+}

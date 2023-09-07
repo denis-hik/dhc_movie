@@ -1,0 +1,16 @@
+.Home-body {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+
+
+  .next {
+    height: 40px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: #61dafb;
+    border-radius: 10px;
+  }
+}

@@ -14,4 +14,7 @@ In the project directory, you can run:
 Stack:
 ``Redux``,``TS``,``scss``,``ajax``, 
 
+Task: 
+[Google DOC](https://docs.google.com/document/d/1QDYS4dcKLIb-E1t5A95aFA-kk0f92lmiDIT4duMSVuM/edit)
+
 ![plot](/screenshots/sc.png)

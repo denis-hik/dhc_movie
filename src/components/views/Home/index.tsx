@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from "react";
-import Header from "./more/ui/Header";
+import Header from "../../public/Header";
 import {useAppDispatch, useAppSelector} from "../../../store/hooks";
 import {listSearchSelector, listSelector, maxPageSelector, searchSelector} from "../../../store/selectors";
 import {actionGetFilms, actionGetFilmsSearch} from "../../../api/getFilms";

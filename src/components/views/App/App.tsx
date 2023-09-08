@@ -3,7 +3,7 @@ import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 import './App.css';
 import {routesHome} from "../../../configs/routes";
 import {routesHomeType} from "../../../configs/types";
-import Header from "../Home/more/ui/Header";
+import Header from "../../public/Header";
 
 
 const App: React.FC = () => {

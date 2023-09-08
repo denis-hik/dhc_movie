@@ -12,6 +12,9 @@ In the project directory, you can run:
 ### `npm test`
 
 Stack:
-``Redux``,``TS``,``scss``,``ajax``, 
+``Redux``,``TS``,``scss``,``axios``, ``react-query``, ``react-router-dom``, ``usehooks``,
+
+Task:
+[Google DOC](https://docs.google.com/document/d/1QDYS4dcKLIb-E1t5A95aFA-kk0f92lmiDIT4duMSVuM/edit)
 
 ![plot](/screenshots/sc.png)

@@ -1,22 +1,25 @@
 import {routesHomeType} from "./types";
-import {lazy} from "react";
+import UndefinedView from "../components/views/UndefinedView";
+import Film from "../components/views/Film";
+import Home from "../components/views/Home";
+
 const routesHome: routesHomeType[] = [
     {
         path: "/",
         exact: true,
-        component: lazy(() => import("../components/views/Home")),
+        component: Home,
     },
     {
         path: "/404",
         exact: true,
         data: { requiresLogin: false },
-        component: lazy(() => import("../components/views/UndefinedView"))
+        component: UndefinedView,
     },
     {
         path: "/film/:id",
         exact: true,
         data: { requiresLogin: false },
-        component: lazy(() => import("../components/views/Film"))
+        component: Film,
     },
 ]
 export { routesHome }
